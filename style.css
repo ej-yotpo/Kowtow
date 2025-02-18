@@ -1,7 +1,9 @@
 body { background: #FAF9F7; }
 .logo { text-align: center; border-bottom: 1px solid rgba(18, 18, 18, .1); height: 46px; padding: 5px 0 0;box-sizing: border-box; }
 .logo img{display:block;}
-.wrapper {background: #fff;max-width: 560px;position: relative;margin: 0;padding: 30px 20px;border-radius: 0;float: right;box-sizing: border-box;height: calc(100vh - 89px);overflow: auto;}
+.wrapper {background: #fff;max-width: 640px;position: relative;margin: 0;padding: 30px 20px;border-radius: 0;float: right;box-sizing: border-box;height: calc(100vh - 54px);overflow: auto;}
+.wrapper::-webkit-scrollbar{height: 10px;width: 5px;}
+.wrapper::-webkit-scrollbar-thumb{background: #C1C1C1;border-radius: 10px;}
 .carousel_v3, .v2_highlight, .v2_reviews {padding-bottom: 20px;}
 .v2_carousel {padding: 20px 10px 60px;}
 .v2_badge {padding: 20px;}
