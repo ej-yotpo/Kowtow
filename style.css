@@ -1,5 +1,6 @@
 body { background: #f3f3f3; }
-.logo { text-align: center; margin: 30px auto 0; }
+.logo { text-align: center; border-bottom: 1px solid rgba(18, 18, 18, .1); height: 46px; padding: 5px 0 0;box-sizing: border-box; }
+.logo img{display:block;}
 .wrapper { background: #fff; max-width: 1120px; position: relative; margin: 30px auto 80px; padding: 5px 40px 0; border-radius: 25px; }
 .carousel_v3, .v2_highlight, .v2_reviews {padding-bottom: 20px;}
 .v2_carousel {padding: 20px 10px 60px;}
