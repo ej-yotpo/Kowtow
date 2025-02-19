@@ -16,6 +16,13 @@ body { background: #FAF9F7; }
 .yotpo-widget-instance[mode-preview="true"] .yotpo-reviews-tab-layout.yotpo-align-text.yotpo-reviews-tab-layout-preview { height: auto; }
 .yotpo-display-l .yotpo-base-layout { width: 100% !important; }
 
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        max-width:100%;
+    }
+    
+}
+
 @media only screen and (max-width: 600px) {
     .wrapper {
         padding: 0;
